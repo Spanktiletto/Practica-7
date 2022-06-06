@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container__header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    overflow: hidden;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 450px;
+}
+
+.logo{
+    font-weight: 800;
+    font-size: 35px;
+}
+a{
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+.section{
+   margin-left: 15%;
+   margin-right: 15%;
+}
+
+.section__sobremi{
+    margin-right: 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 50px;
+    
+    
+}
+.sobremi__info{
+    margin-right: 30px;
+    box-sizing: border-box;
+}
+.sobremi__info h3{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.sobremi__info h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.sobremi__info h1{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.container__p{
+    border-left: 4px solid grey;
+    margin-bottom: 30px;
+}
+.sobremi__info p{
+    font-size: 12px;
+    padding-left: 10px;
+    line-height: 20px;
+}
+.container-sobremi__foto{
+    display: flex;
+    justify-content: center;
+}
+.sobremi__foto{
+    border-radius: 50%;
+    background-color: aqua;
+    height: 20rem;
+}
+.sobremi__info-buttoms{
+    
+    display:flex;
+    justify-content:space-between;
+}
+.button{
+    background-color: rgb(201, 201, 201); /* Green */
+    border: none;
+    border-radius: 10px;
+    padding: 15px 40px;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.fa{
+   margin-left: 5px;
+}
+
+.container__img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.portafolio-img{
+    width: 20rem;
+}

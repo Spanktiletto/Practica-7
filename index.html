@@ -5,51 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practica 7</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header class="header">
-        <a class="logo" href="#">LOGO</a>
-        <nav class="nav">
-            <ul class="nav__contenido">
-                <li>Sobre Mi</li>
-                <li>Portafolio</li>
-                <li>Servicios</li>
-                <li>Contacto</li>
-            </ul>
-        </nav>
+    <header class="container__header">
+            <a class="logo" href="#">LOGO</a>
+            <nav class="nav">
+                <a href="#">Sobre Mi</a>
+                <a href="#">Portafolio</a>
+                <a href="#">Servicios</a>
+                <a href="#">Blog</a>
+                <a href="#">Contacto</a>
+            </nav>
+        
     </header>
     <section class="section section__sobremi">
         <div class="sobremi__info">
             <h3>Hola, Hello</h3>
             <h2>Soy Sebastian Yabiku</h2>
             <h1>Front end Developer</h1>
-            <p>Gracias por visitar mi página, en esta encontraras información sobre mi, mi experiencia, los servicios que ofrezco, algunas cosas de las que 
+            <div class="container__p">
+                <p>Gracias por visitar mi página, en esta encontraras información sobre mi, mi experiencia, los servicios que ofrezco, algunas cosas de las que 
                 me gusta investigar y podrás contactarme y contarme sobre ti.
-            </p>
+                </p>
+            </div>
             <div class="sobremi__info-buttoms">
-                <button class="button--CV">Descargar CV</button>
-                <div class="container__contact">
-                    <a class="contact">in</a>
-                    <a class="contact">in</a>
-                    <a class="contact">in</a>
-                    <a class="contact">in</a>
-                    <a class="contact">in</a>
+                <button class="button button--CV">Descargar CV</button>
+                <div class="button container__contact">
+                    <a href="#" class="fa fa-linkedin fa-2x"></a>
+                    <a href="#" class="fa fa-github fa-2x"></a>
+                    <a href="#" class="fa fa-dropbox fa-2x"></a>
+                    <a href="#" class="fa fa-envelope fa-2x"></a>
+                    <a href="#" class="fa fa-whatsapp fa-2x"></a>
                 </div>
             </div>
         </div>
-        <div class="sobremi__foto"><img src="#"></div>
+        <div class="container-sobremi__foto"><img class="sobremi__foto" src="/img/portafolio.png"></div>
+        
     </section>
     <section class="section section__portafolio">
         <h1 class="section__titulo">PORTAFOLIO</h1>
         <div class="container__img">
-            <img></img>
-            <img></img>
-            <img></img>
-            <img></img>
-            <img></img>
-            <img></img>
-            <img></img>
-            <img></img>
+            <img class="portafolio-img" src="./img/portafolio.png"></img>
+            <img class="portafolio-img" src="./img/portafolio.png"></img>
+            <img class="portafolio-img" src="./img/portafolio.png"></img>
+            <img class="portafolio-img" src="./img/portafolio.png"></img>
+            <img class="portafolio-img" src="./img/portafolio.png"></img>
+            <img class="portafolio-img" src="./img/portafolio.png"></img>
+            <img class="portafolio-img" src="./img/portafolio.png"></img>
+            <img class="portafolio-img" src="./img/portafolio.png"></img>
         </div>
     </section>
     <section class="section section__services">
