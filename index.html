@@ -7,54 +7,219 @@
     <title>Practica 7</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+        </style>
 </head>
 <body>
     <header class="container__header">
             <a class="logo" href="#">LOGO</a>
-            <nav class="nav">
-                <a href="#">Sobre Mi</a>
-                <a href="#">Portafolio</a>
-                <a href="#">Servicios</a>
-                <a href="#">Blog</a>
-                <a href="#">Contacto</a>
+            <nav>
+                <ul id="activediv" class="nav">
+                    <li>
+                        <a class="navbar" href="#">Sobre Mi</a>
+                    </li>
+                    <li>
+                        <a class="navbar" href="#">Portafolio</a> 
+                    </li>
+                    <li>
+                        <a class="navbar" href="#">Servicios</a>
+                    </li>
+                    <li>
+                        <a class="navbar" href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a class="navbar" href="#">Contacto</a>
+                    </li>            
+                </ul>                      
             </nav>
         
     </header>
     <section class="section section__sobremi">
-        <div class="sobremi__info">
-            <h3>Hola, Hello</h3>
-            <h2>Soy Sebastian Yabiku</h2>
-            <h1>Front end Developer</h1>
-            <div class="container__p">
-                <p>Gracias por visitar mi página, en esta encontraras información sobre mi, mi experiencia, los servicios que ofrezco, algunas cosas de las que 
-                me gusta investigar y podrás contactarme y contarme sobre ti.
-                </p>
-            </div>
-            <div class="sobremi__info-buttoms">
-                <button class="button button--CV">Descargar CV</button>
-                <div class="button container__contact">
-                    <a href="#" class="fa fa-linkedin fa-2x"></a>
-                    <a href="#" class="fa fa-github fa-2x"></a>
-                    <a href="#" class="fa fa-dropbox fa-2x"></a>
-                    <a href="#" class="fa fa-envelope fa-2x"></a>
-                    <a href="#" class="fa fa-whatsapp fa-2x"></a>
+        <div class="container__sobremi">
+            <div class="sobremi__info">
+                <h3>Hola, Hello</h3>
+                <h2>Soy Sebastian Yabiku</h2>
+                <h1>Front end Developer</h1>
+                <div class="container__p">
+                    <p>Gracias por visitar mi página, en esta encontraras información sobre mi, mi experiencia, los servicios que ofrezco, algunas cosas de las que 
+                    me gusta investigar y podrás contactarme y contarme sobre ti.
+                    </p>
+                </div>
+                <div class="sobremi__info-buttoms">
+                    <button class="button button--CV">Descargar CV</button>
+                    <div class="container__contact">
+                        <a href="#" class="fa fa-linkedin fa-lg"></a>
+                        <a href="#" class="fa fa-github fa-lg"></a>
+                        <a href="#" class="fa fa-dropbox fa-lg"></a>
+                        <a href="#" class="fa fa-envelope fa-lg"></a>
+                        <a href="#" class="fa fa-whatsapp fa-lg"></a>
+                    </div>
                 </div>
             </div>
+            <div class="container-sobremi__foto">
+                <img class="sobremi__foto" src="/img/portafolio.png">
+            </div>
+            <div class="container__likes"></div>
         </div>
-        <div class="container-sobremi__foto"><img class="sobremi__foto" src="/img/portafolio.png"></div>
+        <a class="container__arrow"><div class="arrow"></div><span>Down</span></a>
         
     </section>
     <section class="section section__portafolio">
         <h1 class="section__titulo">PORTAFOLIO</h1>
-        <div class="container__img">
-            <img class="portafolio-img" src="./img/portafolio.png"></img>
-            <img class="portafolio-img" src="./img/portafolio.png"></img>
-            <img class="portafolio-img" src="./img/portafolio.png"></img>
-            <img class="portafolio-img" src="./img/portafolio.png"></img>
-            <img class="portafolio-img" src="./img/portafolio.png"></img>
-            <img class="portafolio-img" src="./img/portafolio.png"></img>
-            <img class="portafolio-img" src="./img/portafolio.png"></img>
-            <img class="portafolio-img" src="./img/portafolio.png"></img>
+        <div class="container__portafolio">
+           <div class="container__img">
+               <img class="portafolio-img" src="./img/portafolio.png">
+               <div class="img-content active-img">
+                    <div class="content__img-contet">
+                    <h1>Web APP</h1>
+                    <p>Aplicación app para cliente de USA</p>
+                    <div class="img-list">
+                        <div class="img-list-item">HTML5</div>
+                        <div>CSS3</div>
+                        <div>SEO</div>
+                        <div>Javascript</div>
+                        <div>Microform</div>
+                    </div>
+                </div>
+
+                </div>
+                </img>
+               
+            </div>
+            <div class="container__img">
+                <img class="portafolio-img" src="./img/portafolio.png">
+                <div class="img-content active-img">
+                     <div class="content__img-contet">
+                     <h1>Web APP</h1>
+                     <p>Aplicación app para cliente de USA</p>
+                     <div class="img-list">
+                         <div class="img-list-item">HTML5</div>
+                         <div>CSS3</div>
+                         <div>SEO</div>
+                         <div>Javascript</div>
+                         <div>Microform</div>
+                     </div>
+                 </div>
+ 
+                 </div>
+                 </img>
+                
+             </div>
+             <div class="container__img">
+                <img class="portafolio-img" src="./img/portafolio.png">
+                <div class="img-content active-img">
+                     <div class="content__img-contet">
+                     <h1>Web APP</h1>
+                     <p>Aplicación app para cliente de USA</p>
+                     <div class="img-list">
+                         <div class="img-list-item">HTML5</div>
+                         <div>CSS3</div>
+                         <div>SEO</div>
+                         <div>Javascript</div>
+                         <div>Microform</div>
+                     </div>
+                 </div>
+ 
+                 </div>
+                 </img>
+                
+             </div>
+             <div class="container__img">
+                <img class="portafolio-img" src="./img/portafolio.png">
+                <div class="img-content active-img">
+                     <div class="content__img-contet">
+                     <h1>Web APP</h1>
+                     <p>Aplicación app para cliente de USA</p>
+                     <div class="img-list">
+                         <div class="img-list-item">HTML5</div>
+                         <div>CSS3</div>
+                         <div>SEO</div>
+                         <div>Javascript</div>
+                         <div>Microform</div>
+                     </div>
+                 </div>
+ 
+                 </div>
+                 </img>
+                
+             </div>
+             <div class="container__img">
+                <img class="portafolio-img" src="./img/portafolio.png">
+                <div class="img-content active-img">
+                     <div class="content__img-contet">
+                     <h1>Web APP</h1>
+                     <p>Aplicación app para cliente de USA</p>
+                     <div class="img-list">
+                         <div class="img-list-item">HTML5</div>
+                         <div>CSS3</div>
+                         <div>SEO</div>
+                         <div>Javascript</div>
+                         <div>Microform</div>
+                     </div>
+                 </div>
+ 
+                 </div>
+                 </img>
+                
+             </div>
+             <div class="container__img">
+                <img class="portafolio-img" src="./img/portafolio.png">
+                <div class="img-content active-img">
+                     <div class="content__img-contet">
+                     <h1>Web APP</h1>
+                     <p>Aplicación app para cliente de USA</p>
+                     <div class="img-list">
+                         <div class="img-list-item">HTML5</div>
+                         <div>CSS3</div>
+                         <div>SEO</div>
+                         <div>Javascript</div>
+                         <div>Microform</div>
+                     </div>
+                 </div>
+ 
+                 </div>
+                 </img>
+                
+             </div>
+             <div class="container__img">
+                <img class="portafolio-img" src="./img/portafolio.png">
+                <div class="img-content active-img">
+                     <div class="content__img-contet">
+                     <h1>Web APP</h1>
+                     <p>Aplicación app para cliente de USA</p>
+                     <div class="img-list">
+                         <div class="img-list-item">HTML5</div>
+                         <div>CSS3</div>
+                         <div>SEO</div>
+                         <div>Javascript</div>
+                         <div>Microform</div>
+                     </div>
+                 </div>
+ 
+                 </div>
+                 </img>
+                
+             </div>
+             <div class="container__img">
+                <img class="portafolio-img" src="./img/portafolio.png">
+                <div class="img-content active-img">
+                     <div class="content__img-contet">
+                     <h1>Web APP</h1>
+                     <p>Aplicación app para cliente de USA</p>
+                     <div class="img-list">
+                         <div class="img-list-item">HTML5</div>
+                         <div>CSS3</div>
+                         <div>SEO</div>
+                         <div>Javascript</div>
+                         <div>Microform</div>
+                     </div>
+                 </div>
+ 
+                 </div>
+                 </img>
+                
+             </div>
         </div>
     </section>
     <section class="section section__services">
@@ -157,4 +322,5 @@
         </div>
     </footer>
 </body>
+<script src="main.js"></script>
 </html>
